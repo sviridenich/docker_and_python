@@ -28,7 +28,7 @@ ADD /my_application /my_application
 RUN pip install -r /my_application/requirements.txt
 
 # Expose ports
-EXPOSE 7070
+EXPOSE 7034
 
 # Set the default directory where CMD will execute
 WORKDIR /my_application
